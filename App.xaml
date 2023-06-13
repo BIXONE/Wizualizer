@@ -1,0 +1,17 @@
+﻿<Application x:Class="Wizualizer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Wizualizer"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/PrzyciskMenu.xaml"/>
+                <ResourceDictionary Source="Theme/GłównaSekcja.xaml"/>
+                <ResourceDictionary Source="Theme/Wizualizator.xaml"/>
+                <ResourceDictionary Source="Theme/Kontrolki/ComboBoxWizualizator.xaml"/>
+                <ResourceDictionary Source="Theme/Kontrolki/TextBoxWizualizator.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

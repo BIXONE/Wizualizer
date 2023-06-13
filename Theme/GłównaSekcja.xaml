@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp">
+
+    <Style x:Key="tablicaGłówna" TargetType="{x:Type Border}">
+        <Style.Setters>
+            <Setter Property="Background" Value="#12121212"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="CornerRadius" Value="0 0 25 0"/>
+            <Setter Property="Visibility" Value="Hidden"/>
+        </Style.Setters>
+
+        <Style.Triggers>
+            
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="nagłówek" TargetType="Label">
+        <Style.Setters>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="10 0 0 0"/>
+        </Style.Setters>
+    </Style>
+
+    <Style x:Key="ikonaTablicy" TargetType="fa:IconImage">
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Margin" Value="30 0 10 0"/>
+        <Setter Property="Foreground" Value="#FFFFFF"/>
+    </Style>
+
+    <Style x:Key="liniaTablicy" TargetType="Border">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0 2 0 0"/>
+        <Setter Property="BorderBrush" Value="#FFFFFF"/>
+        <Setter Property="Margin" Value="25 0 25 0"/>
+    </Style>
+
+</ResourceDictionary>
